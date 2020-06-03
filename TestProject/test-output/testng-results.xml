@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71740" started-at="2020-06-03T03:01:21Z" finished-at="2020-06-03T03:02:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71740" started-at="2020-06-03T03:01:21Z" finished-at="2020-06-03T03:02:33Z">
+      <class name="com.experitest.auto.IOSDemoTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.experitest.auto.IOSDemoTest@7a52f2a2]" name="setUp" is-config="true" duration-ms="34515" started-at="2020-06-02T20:01:22Z" finished-at="2020-06-02T20:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@os='ios']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.experitest.auto.IOSDemoTest@7a52f2a2]" name="test" duration-ms="8" started-at="2020-06-02T20:01:56Z" finished-at="2020-06-02T20:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.experitest.auto.IOSDemoTest@7a52f2a2]" name="tearDown" is-config="true" duration-ms="11673" started-at="2020-06-02T20:01:56Z" finished-at="2020-06-02T20:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.experitest.auto.IOSDemoTest -->
+      <class name="com.experitest.auto.AndroidDemoTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.experitest.auto.AndroidDemoTest@78047b92]" name="setUp" is-config="true" duration-ms="19701" started-at="2020-06-02T20:02:08Z" finished-at="2020-06-02T20:02:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@os='android']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.experitest.auto.AndroidDemoTest@78047b92]" name="test" duration-ms="2" started-at="2020-06-02T20:02:27Z" finished-at="2020-06-02T20:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.experitest.auto.AndroidDemoTest@78047b92]" name="tearDown" is-config="true" duration-ms="5800" started-at="2020-06-02T20:02:27Z" finished-at="2020-06-02T20:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.experitest.auto.AndroidDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
